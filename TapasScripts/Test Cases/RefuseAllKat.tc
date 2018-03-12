@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RefuseAllKat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1996e291-2547-4ee1-b76a-fb1b971d056f</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>92f6b5a4-7b45-420b-884b-a8cbd4aef6b2</id>
+      <masked>false</masked>
+      <name>temp</name>
+   </variable>
+</TestCaseEntity>

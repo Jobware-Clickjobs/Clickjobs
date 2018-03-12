@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KatRefuseExperteer" time="23" tests="1" failures="0" errors="1">
+   <testsuite name="KatRefuseExperteer" tests="1" failures="0" errors="1" time="23" timestamp="2018-03-08 10:45:54" hostname="lrink - JW-LEN-M710S-03.hockenheim.jw.dir" id="Test Suites/KatRefuseExperteer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Skripte\\UserLogin\\Reports\\KatRefuseExperteer\\20180308_104552"/>
+         <property name="logFiles" value="C:\\Katalon Skripte\\UserLogin\\Reports\\KatRefuseExperteer\\20180308_104552\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lrink - JW-LEN-M710S-03.hockenheim.jw.dir"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.253.171"/>
+         <property name="sessionId" value="c8b9b0dab7db0f31377a099bc1bb5644"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basics/Login" classname="Test Cases/Basics/Login" status="PASSED">
+         <system-out><![CDATA[2018-03-08 10:45:54 - [TEST_CASE][PASSED] - Test Cases/Basics/Login: Test Cases/Basics/Login
+
+2018-03-08 10:45:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://tapas-integration.jobware.net/tapas/faces/resources/trend/xhtml/login/login.xhtml?trend.viewClass=de.jobware.tapas.application.login.TapasLoginView'
+
+2018-03-08 10:46:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://tapas-integration.jobware.net/tapas/faces/resources/trend/xhtml/login/login.xhtml?trend.viewClass=de.jobware.tapas.application.login.TapasLoginView'
+
+2018-03-08 10:46:01 - [TEST_STEP][PASSED] - setText: Text 'bot' is set on object 'Object Repository/Page_TapasLogin/input_j_username'
+
+2018-03-08 10:46:05 - [MESSAGE][PASSED] - Text 'bot' is set on object 'Object Repository/Page_TapasLogin/input_j_username'
+
+2018-03-08 10:46:05 - [TEST_STEP][PASSED] - setText: Text 'Passwort123' is set on object 'Object Repository/Page_TapasLogin/input_j_password'
+
+2018-03-08 10:46:09 - [MESSAGE][PASSED] - Text 'Passwort123' is set on object 'Object Repository/Page_TapasLogin/input_j_password'
+
+2018-03-08 10:46:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_TapasLogin/input_loginButton' is clicked on
+
+2018-03-08 10:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TapasLogin/input_loginButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KatRefuse" classname="Test Cases/KatRefuse" status="ERROR">
+         <error type="ERROR" message="Test Cases/KatRefuse FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Boolean) values: [Page_TapasHome/select_Mandant, 0, true]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)"/>
+         <system-out><![CDATA[2018-03-08 10:46:15 - [TEST_CASE][ERROR] - Test Cases/KatRefuse: Test Cases/KatRefuse FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Boolean) values: [Page_TapasHome/select_Mandant, 0, true]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+
+2018-03-08 10:46:15 - [TEST_STEP][PASSED] - selectOptionByValue: null]]></system-out>
+         <system-err><![CDATA[2018-03-08 10:46:15 - [TEST_CASE][ERROR] - Test Cases/KatRefuse: Test Cases/KatRefuse FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Boolean) values: [Page_TapasHome/select_Mandant, 0, true]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-08 10:45:54 - [TEST_SUITE][ERROR] - KatRefuseExperteer: Test Cases/KatRefuse FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Boolean) values: [Page_TapasHome/select_Mandant, 0, true]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)]]></system-out>
+      <system-err><![CDATA[2018-03-08 10:45:54 - [TEST_SUITE][ERROR] - KatRefuseExperteer: Test Cases/KatRefuse FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.Boolean) values: [Page_TapasHome/select_Mandant, 0, true]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)]]></system-err>
+   </testsuite>
+</testsuites>

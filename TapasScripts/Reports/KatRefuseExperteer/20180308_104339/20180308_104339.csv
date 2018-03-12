@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KatRefuseExperteer,Chrome 64.0.3282.186,,2018-03-08 10:43:41,2018-03-08 10:45:00,"1m - 19,836s",ERROR
+,,,,,,
+Test Cases/Basics/Login,Chrome 64.0.3282.186,"Opens the Browser, logs in to Tapas",2018-03-08 10:43:41,2018-03-08 10:44:39,"57,658s",PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-08 10:43:41,2018-03-08 10:43:51,"9,825s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-08 10:43:51,2018-03-08 10:43:59,"8,161s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-08 10:43:59,2018-03-08 10:44:07,"8,156s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-08 10:44:07,2018-03-08 10:44:39,"31,191s",PASSED
+,,,,,,
+Test Cases/KatRefuse,Chrome 64.0.3282.186,,2018-03-08 10:44:39,2018-03-08 10:44:39,"0,210s",ERROR
+selectOptionByValue,Chrome 64.0.3282.186,,2018-03-08 10:44:39,2018-03-08 10:44:39,"0,002s",PASSED
+,,,,,,
+Test Cases/Basics/Logout,Chrome 64.0.3282.186,,2018-03-08 10:44:39,2018-03-08 10:44:58,"19,044s",FAILED
+click,Chrome 64.0.3282.186,,2018-03-08 10:44:39,2018-03-08 10:44:43,"4,326s",PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(PopUp_LogoutSave/div_QuitWithoutSave), 10))",Chrome 64.0.3282.186,,2018-03-08 10:44:43,2018-03-08 10:44:58,"14,610s",FAILED

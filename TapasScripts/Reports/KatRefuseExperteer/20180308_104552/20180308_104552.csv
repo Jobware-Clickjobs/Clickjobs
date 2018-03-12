@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KatRefuseExperteer,Chrome 64.0.3282.186,,2018-03-08 10:45:54,2018-03-08 10:46:17,"23,638s",ERROR
+,,,,,,
+Test Cases/Basics/Login,Chrome 64.0.3282.186,"Opens the Browser, logs in to Tapas",2018-03-08 10:45:54,2018-03-08 10:46:15,"21,304s",PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-08 10:45:54,2018-03-08 10:46:01,"6,263s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-08 10:46:01,2018-03-08 10:46:05,"4,203s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-08 10:46:05,2018-03-08 10:46:09,"4,132s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-08 10:46:09,2018-03-08 10:46:15,"6,481s",PASSED
+,,,,,,
+Test Cases/KatRefuse,Chrome 64.0.3282.186,,2018-03-08 10:46:15,2018-03-08 10:46:16,"0,237s",ERROR
+selectOptionByValue,Chrome 64.0.3282.186,,2018-03-08 10:46:15,2018-03-08 10:46:15,"0,003s",PASSED
